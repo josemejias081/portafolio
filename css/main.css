@@ -1,0 +1,230 @@
+/* Color de los link (texto)en el nav */
+.navbar .nav-item .nav-link {
+  color: blue;
+}
+
+.navbar .nav-item .nav-link:hover {
+  color: #008bc6;
+  text-decoration: underline
+  
+}
+
+/* Configuracion de logo*/
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: solid 1px #008bc6;
+}
+
+/* Colocando la imagen que irá de fondo en el main header */
+/* ../img/background.jpg esta sintaxis hace que nos tome la imagen desde la carpeta correspondiente */
+/* background-size: cover; hace que la imagen ocupe toda la pantalla */
+.main-header {
+   /* position: relative; posicionamiento de la imagen no necesario aqui en particular */
+  background: url(../img/atardecer.jpg);
+  background-size: cover;
+  /* min-height: 600; le da un alto minimo a la imagen de background */
+  min-height: 600;
+}
+
+/* background-overlay coloca el color sobre la imagen y el ultimo valor es la opacidad del mismo*/
+
+.background-overlay {
+  background:rgba(48, 51, 107,.7);
+  /* Las siguientes lineas top left width height en caso que la imagen de fondo desborde al overlay*/
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Elimina el borde redondeado a los botones*/
+.btn {
+  border-radius: 0px;
+}
+
+.content-texts span {
+  background: #008bc6;
+  color: #fff;
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  padding: 3px;
+
+}
+
+.content-texts p {
+  text-align: justify;
+  font-size: 22px;
+  color: #17202A;
+
+}
+
+.info-left h2 {
+  text-align: center;
+}
+
+.row-galery {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.container-galery {
+  
+  justify-content: center;
+  align-items:center;
+}
+
+.card {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 250px;
+  height: 200px;
+
+}
+
+.borde {
+  background-image: url(../img/sistema-sedal-mejias_web.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.card-uno {
+  background-image: url(../img/sistema-sedal-mejias_web.jpg);
+  
+}
+
+.card-dos {
+  background-image: url(../img/sport-plus-mejias_web.png);
+  
+}
+
+.card-tres {
+  background-image: url(../img/mb-mejias_web.jpg);
+  
+}
+
+.card-cuatro {
+  background-image: url(../img/mynellys-mejias_web.jpg);
+  
+}
+
+.card-cinco {
+  background-image: url(../img/lmt-mejias_web.png);
+  
+}
+
+.card-seis {
+  background-image: url(../img/dg-mejias_web.jpg);
+  
+}
+
+
+.card-siete {
+  background-image: url(../img/fp-mejias_web.jpg);
+  
+}
+
+.card-ocho {
+  background-image: url(../img/pub-mejias_web.png);
+  
+}
+
+.line {
+  border: solid 1px #fff;
+  width: 80%;
+  margin: 30px auto;
+}
+
+th {
+  font-size: 15px;
+  color: #008bc6;
+}
+
+td {
+  font-size: 12px;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+figcaption {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+table {
+  margin-top: 10px;
+}
+
+.btn-block {
+  margin: 10px 0;
+}
+
+/* Configuracion movil*/
+
+@media (max-width: 576px) {
+
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  h4 {
+    font-size: 26px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+
+  .btn-outline-primary {
+    margin: 10px 0;
+  }
+
+  .title-finish {
+    font-size: 22px;
+  } 
+
+  .cont-text-biografy {
+    margin-top: 20px;
+  }
+
+  th {
+    font-size: 17px;
+    color: #008bc6;
+  }
+  
+  td {
+    font-size: 15px;
+  }
+
+  .owner {
+    font-size: 18px;
+  }
+
+  .owner1 {
+    font-size: 17px;
+  }
+
+  .text-dark {
+    color: #17202A;
+  }
+  
+}
+
+
+
