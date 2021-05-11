@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.call-to-acction {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.call-to-acction {
+  background: url(../img/call-to-action.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.call-to-acction .call-text {
+  display: flex;
+  height: 800px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.img-top, .rounde-circle {
+  border: solid 1px #fff;
+  border-radius: 50%; 
+}
+
+.img-top {
+  width: 100px;
+  height: 100px;
+}
+
+.figure-caption {
+  color: #fff;
+}
+
+.rounde-circle {
+  width: 30px;
+  height: 30px;
+}
+
+.btn {
+  border-radius: 0px;
+}
+
+@media (max-width: 576px) {
+  .call-to-acction {
+    background: url(../img/links-phone.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+  }
+}
+
