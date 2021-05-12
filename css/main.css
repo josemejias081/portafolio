@@ -150,6 +150,14 @@
   
 }
 
+.ir {
+  font-size: 1.5rem;
+}
+
+.ir:hover {
+  color:#fff;
+}
+
 .line {
   border: solid 1px #fff;
   width: 80%;
