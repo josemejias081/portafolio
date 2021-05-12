@@ -28,6 +28,20 @@
   min-height: 600;
 }
 
+.main-header-projects {
+  background: url(../img/cover.jpg);
+  background-size: cover;
+  min-height: 600;
+
+}
+
+.main-header-bio {
+  background: url(../img/cover-two.jpg);
+  background-size: cover;
+  min-height: 600;
+
+}
+
 /* background-overlay coloca el color sobre la imagen y el ultimo valor es la opacidad del mismo*/
 
 .background-overlay {
