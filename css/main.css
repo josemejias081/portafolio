@@ -188,6 +188,21 @@ table {
 
 .btn-block {
   margin: 10px 0;
+} 
+
+/*Link Up*/
+
+.link-up {
+  color: #fff;
+}
+
+.up {
+  position: fixed;
+  right: 1px;
+  bottom: 55px;
+  z-index:1000;
+  background:#008bc6;
+  border-radius: 50px;
 }
 
 /* Configuracion movil*/
