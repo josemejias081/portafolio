@@ -165,7 +165,7 @@
 
 .card-once {
   background-image: url(../img/E.png);
-  background-position: center;
+  *background-position: center;
   
 }
 
