@@ -17,6 +17,22 @@
   border: solid 1px #008bc6;
 }
 
+.whatsapp {
+  background: #00BB2D;
+  padding: 10px;
+  color: #fff;
+  font-size: 17px;
+  border: solid 1px #fff;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.whatsapp:hover {
+  background: #fff;
+  color: #00BB2d;
+  border: solid 2px #00BB2D;
+}
+
 /* Colocando la imagen que irá de fondo en el main header */
 /* ../img/background.jpg esta sintaxis hace que nos tome la imagen desde la carpeta correspondiente */
 /* background-size: cover; hace que la imagen ocupe toda la pantalla */
@@ -165,7 +181,7 @@
 
 .card-once {
   background-image: url(../img/E.png);
-  *background-position: center;
+  background-position: center;
   
 }
 
@@ -223,6 +239,22 @@ table {
   background:#008bc6;
   border-radius: 50px;
 }
+
+.contaner-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  
+  
+}
+
+.contaner-img> img {
+  width: 100%;
+}
+
+
 
 /* Configuracion movil*/
 
