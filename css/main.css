@@ -141,12 +141,31 @@
 
 
 .card-siete {
-  background-image: url(../img/fp-mejias_web.jpg);
+  background-image: url(../img/Logo-fuente-productiva-c.png);
+  background-position: center;
   
 }
 
 .card-ocho {
   background-image: url(../img/pub-mejias_web.png);
+  
+}
+
+.card-nueve {
+  background-image: url(../img/logo-directorio247.png);
+  background-position: center;
+  
+}
+
+.card-diez {
+  background-image: url(../img/Logo-sfr-DTienda.png);
+  background-size: contain;
+  background-position: center;
+}
+
+.card-once {
+  background-image: url(../img/E.png);
+  background-position: center;
   
 }
 
