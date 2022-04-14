@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
 /* Color de los link (texto)en el nav */
 .navbar .nav-item .nav-link {
   color: blue;
@@ -255,6 +263,8 @@ table {
   z-index:1000;
   background:#008bc6;
   border-radius: 50px;
+  
+  
 }
 
 .contaner-img {
@@ -264,14 +274,12 @@ table {
   width: 250px;
   height: 250px;
   
-  
 }
 
 .contaner-img> img {
   width: 100%;
+  
 }
-
-
 
 /* Configuracion movil*/
 
@@ -330,6 +338,7 @@ table {
   }
   
 }
+
 
 
 
