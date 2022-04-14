@@ -151,7 +151,8 @@
 }
 
 .card-seis {
-  background-image: url(../img/dg-mejias_web.jpg);
+  background-image: url(../img/LOGO-INV-AGUA-SANTA.png);
+  background-position: center;
   
 }
 
@@ -163,7 +164,8 @@
 }
 
 .card-ocho {
-  background-image: url(../img/pub-mejias_web.png);
+  background-image: url(../img/post-Mw.png);
+  background-position: center;
   
 }
 
@@ -191,13 +193,22 @@
   
 }
 
-.ir {
-  font-size: 1.5rem;
+.b_descripcion {
+  background: #007bff;
+  padding: 10px;
+  color: #fff;
+  font-size: 17px;
+  border: solid 1px #fff;
+  border-radius: 20px;
+  text-decoration: none;
 }
 
-.ir:hover {
-  color:#fff;
+.b_descripcion:hover {
+  background: #fff;
+  color: #007bff;
+  border: solid 2px #007bff;
 }
+
 
 .line {
   border: solid 1px #fff;
