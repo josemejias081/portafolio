@@ -66,6 +66,60 @@ html {
 
 }
 
+.main-header-sp-page {
+ background: url(../img/sp-cover.jpg);
+ background-size: cover;
+ min-height: 600;
+ background-position: center;
+}
+
+.black {
+  color: #000000;
+}
+
+.blue {
+  color: #0a74ba;
+  font-weight: bold;
+ 
+}
+
+.red {
+  color: #cc2031;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.glass {
+  color: #000000;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.background-attached {
+  background: url(../img/portada.jpg);
+  background-size: cover;
+  min-height: 600;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.rounde {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+}
+
 /* background-overlay coloca el color sobre la imagen y el ultimo valor es la opacidad del mismo*/
 
 .background-overlay {
