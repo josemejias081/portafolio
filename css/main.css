@@ -243,14 +243,20 @@ html {
   background-position: center;
 }
 
+.card-once {
+  background-image: url(../img/E.png);
+  background-position: center;
+  
+}
+
 .card-doce {
   background-image: url(../img/lulabypub.png);
   background-size: contain;
   background-position: center;
 }
 
-.card-once {
-  background-image: url(../img/E.png);
+.card-trece {
+  background-image: url(../img/Logo-ADsystem.png);
   background-position: center;
   
 }
