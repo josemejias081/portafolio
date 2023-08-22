@@ -52,6 +52,13 @@ html {
   min-height: 600;
 }
 
+.main-header-posts {
+  background: url(../img/gotas.jpg);
+  background-size: cover;
+  min-height: 600;
+
+}
+
 .main-header-projects {
   background: url(../img/cover.jpg);
   background-size: cover;
@@ -172,7 +179,7 @@ html {
   align-items:center;
 }
 
-.card {
+.cards {
   background-repeat: no-repeat;
   background-size: cover;
   width: 250px;
