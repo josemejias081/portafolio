@@ -284,6 +284,10 @@ html {
   border: solid 2px #007bff;
 }
 
+.bga {
+  background: #1f2124;
+}
+
 
 .line {
   border: solid 1px #fff;
