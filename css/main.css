@@ -87,6 +87,14 @@ html {
 
 }
 
+.main-header-post {
+  background: url(../img/portrait-post.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 10%;
+
+}
+
 .espaciador {
   height: 400px;
 }
