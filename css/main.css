@@ -88,6 +88,8 @@ html {
 }
 
 .main-header-post {
+  width: auto;
+  height: 600px;
   background: url(../img/portrait-post.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -95,8 +97,17 @@ html {
 
 }
 
+.main-header-may {
+  width: auto;
+  height: 800px;
+  background: url(../img/portrait-may.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
 .espaciador {
-  height: 400px;
+  *height: 400px;
 }
 
 .glass {
