@@ -308,6 +308,12 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   
 }
 
+.card-catorce {
+  background-image: url(../img/telo.png);
+  background-position: center;
+  
+}
+
 .b_descripcion {
   background: #007bff;
   padding: 10px;
