@@ -97,6 +97,26 @@ html {
 
 }
 
+.main-header-youtube {
+  width: auto;
+  height: 600px;
+  background: url(../img/jose-mejias-youtube.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 10%;
+
+}
+
+.btn-canal {
+  background: #FF0000;
+  color: #FFFFFF;
+}
+
+.btn-canal:hover {
+  background: #FFFFFF;
+  color: #FF0000;
+}
+
 .main-header-may {
   width: auto;
   height: 800px;
