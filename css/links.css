@@ -115,6 +115,8 @@ a {
   color: #fff;
 }
 
+
+
 @media screen and (max-width: 720px){
 
   figcaption {
@@ -143,6 +145,11 @@ a {
 
   .title {
     font-size: 19px;
+  }
+
+  .video-container {
+    width: 80%;
+    padding: 15px;
   }
 }
 
@@ -174,5 +181,10 @@ a {
 
   .title {
     font-size: 14px;
+  }
+
+  .video-container {
+    width: 80%;
+    padding: 15px;
   }
 }
